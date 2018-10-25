@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-prettier",
+    "stylelint-config-styled-components"
+  ],
+  "processors": ["stylelint-processor-styled-components"],
+  "rules": {
+    "no-empty-source": null,
+    "selector-list-comma-newline-after": null
+  },
+}
